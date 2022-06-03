@@ -1,5 +1,8 @@
 .about-section{
-    background-color: darkgoldenrod;
-    color: aliceblue;
+    background-color: gainsboro;
+    color:black;
     text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 950px;
 }

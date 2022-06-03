@@ -12,7 +12,7 @@ import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { ContactusComponent } from './contactus/contactus.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+//import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     CartPageComponent,
     FoodpageComponent,
     ContactusComponent,
-    AboutUsComponent,
+   //AboutUsComponent,
   ],
   imports: [
     BrowserModule,

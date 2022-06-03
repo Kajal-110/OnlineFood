@@ -85,6 +85,6 @@ ul .remove-button:hover{
     color:gray;
 }
 .checkout .food-price::before{
-    content: 'Total Price:' ;
+    content: 'Total Price: ' ;
     color:gray;
 }

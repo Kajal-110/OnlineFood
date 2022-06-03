@@ -1,9 +1,9 @@
  <!-- <app-notfound [visible]="!food" notFoundMessage="Product not Found !" resetLinkText="Go To HomePage"></app-notfound>  -->
-<div  *ngIf="food" class="container">
+<div  *ngIf="food" class="container" >
     <img [src]="food.imageUrl" [alt]="food.name">
 </div>
 <div class="details">
-    <div class="header">
+    <div class="header" >
         <span class="name">
             {{food.name}}
         </span>
@@ -11,9 +11,9 @@
             🧡
         </span>
     </div>
-    <!-- <div class="star">
+     <div class="star">
         <ngx-star-rating [id]="'rating'" ></ngx-star-rating>
-    </div> -->
+    </div> 
     <div class="origin">
            <span *ngFor="let origin of food.origin">
             {{origin}}
