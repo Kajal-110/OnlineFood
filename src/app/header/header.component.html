@@ -1,16 +1,26 @@
 
 <header>
     <div class="container">
-       <a href="#" routerlink="/" >
-           <img src="../assets/image/magic logo.jpg" height="100px" width="150px">
-       </a>
-       <a href="#home" class="float">home</a>
-       <!-- <a href="#home" class="float">Category</a>
-       <a href="#home" class="float">location</a>
-       <a href="#home" class="float">Cart</a>-->
-       <a href="index2.html" class="float">About Us</a>
-       <a href="index1.html" class="float">Contact Us</a> 
-   </div>
+        <a href="#" routerlink="/" >
+            <img src="../assets/image/magic logo.jpg" height="100px" width="150px">
+        </a>
+        <a href="#home" class="float" >Home</a>
+        <a href="#Feedback" class="float" routerLink="/add-feedback">Feedback</a>
+        <a href="#About-us" class="float" routerLink="/about-us">About-us</a>
+        <a href="#contact-us" class="float" routerLink="/contact-us">Contact-us</a>
+        <a href="#services" class="float" routerLink="/services">Services</a>
+    </div>
+    
      
 </header>
-                   
+ <router-outlet></router-outlet> 
+
+ <!-- <div >
+    <a href="#" routerlink="/" >
+        <img src="../assets/image/magic logo.jpg" height="100px" width="150px">
+    </a>
+    <a href="#home" class="float">Home</a>
+    <a href="#home" class="float">Feedback</a> 
+    <a routerLink="/add-Feedback">Feedback</a> 
+    <a href="add-feedback" class="float">Feedback</a>
+</div> -->

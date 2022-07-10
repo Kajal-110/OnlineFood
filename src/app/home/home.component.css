@@ -4,7 +4,6 @@ ul{
     align-items: center;
     flex-wrap: wrap;
     list-style-type: none;
-    padding: 0;
 }
 ul li a{
     height: 24rem;
@@ -32,33 +31,37 @@ li a:hover{
     right: 1rem;
     font-size: 1.2rem;
 }
-.favorite .not{
-    color: black;
+/* .favorite .not{
+    color:black;
+    
 }
 .star{
     margin-right: .9rem ;
-}
+   
+    margin-top: 3rem;
+} */
 .product-item-footer{
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 .origin{
-    flex: 9;
+    margin-top: 8px;
+    flex: 11;
 }
 .origin .span{
     border-radius: 2rem;
     background-color: gainsboro;
     color: green;
-    font: .8rem;
+    font: .6rem;
     margin-right: .3rem;
     display: inline-block;
 }
-.cook-time{
+.cook-Time{
     font-size: .8rem;
-    flex:3rem;
-    margin-left: 14rem;
-    margin-top: 3rem;
+    flex:10rem;
+    margin-left: 9rem; 
+    margin-top: 3rem; 
 }
 .price{
     margin-bottom: 4rem;

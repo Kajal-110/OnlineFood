@@ -1,6 +1,6 @@
 <app-search></app-search>
 <app-tags></app-tags>
-<!-- <app-contactus></app-contactus> -->
+
 <ul>
     <li *ngFor="let food of foods">
         <a routerLink="/food/{{food.id}}">
@@ -11,14 +11,14 @@
                 {{food.name}}
             </div>
             <span class="favorite {{food.favorite?'':'not'}}">🧡</span>
-            <ngx-star-rating [id]="'rating'"  ></ngx-star-rating>
+            <!-- <ngx-star-rating [id]="'rating'"  ></ngx-star-rating> -->
             <div class="product-item-footer">
                 <div class="origin">
                     <span *ngFor="let origin of food.origin">
                         {{origin}}
                     </span>
                 </div>
-                <div class="cook-time">
+                <div class="cook-Time">
                     <span>⏰</span>
                     {{food.cookTime}}
                 </div>
@@ -26,7 +26,11 @@
             <div class="price">
                Price: {{food.price}}
             </div>
+            
+            
         </div>
+       
         </a>
     </li>
 </ul>
+<!-- <router-outlet></router-outlet> -->

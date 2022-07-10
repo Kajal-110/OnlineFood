@@ -29,9 +29,9 @@ export class FoodService {
       { name:'All', count:14 },
       { name:'Aloo matar', count:4 },
       { name:'pizza', count:0},
-      { name:'Lunch', count:10 },
+      { name:'Ras Malai', count:10 },
       { name:'Burger', count:14 },
-      { name:'Fry', count:11 },
+      { name:'Noodles', count:11 },
       { name:'Burger', count:6 },
       { name:'Soup', count:1 },
       { name:'paneer', count:8 },
@@ -208,6 +208,17 @@ export class FoodService {
         imageUrl:'../assets/image/paneer.png',
         tags:['FastFood','pizza','lunch'],
       },
+      {
+        id:16,
+        name:'Momo',
+        cookTime:'30-40',
+        price:80,
+        favorite:true,
+        origin:['indian'],
+        star:5,
+        imageUrl:'not availabll',
+        tags:['chinese']
+      }
       
       
     ];
